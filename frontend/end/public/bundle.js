@@ -31,7 +31,7 @@ const simpleStorageABI = [
   }
 ];
 const simpleStorageAddress = '0x63569cbe2609D35f8822B6217737922537785C5d';
-const web3 = new Web3('http://localhost:9545');
+const web3 = new Web3('http://localhost:8080');
 const simpleStorage = new web3.eth.Contract(simpleStorageABI, simpleStorageAddress);
 
 document.addEventListener('DOMContentLoaded', () => {
