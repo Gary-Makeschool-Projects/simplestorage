@@ -10,4 +10,7 @@ contract SimpleStorage {
   function get() view public returns(string memory) {
     return data;
   }
+  function realease() view public returns(string memory _data) {
+    return _data;
+  }
 }
