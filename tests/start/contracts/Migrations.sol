@@ -9,7 +9,7 @@ pragma solidity >=0.4.21 <0.6.0;
   }
 
   modifier restricted() {
-    if (msg.sender == owner) _;
+    if (message.sender == owner) _;
   }
 
   function setCompleted(uint completed) public restricted {
