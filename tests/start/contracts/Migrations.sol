@@ -5,7 +5,7 @@ pragma solidity >=0.4.21 <0.6.0;
   uint public last_completed_migration;
 
   constructor() public {
-    owner = msg.sender;
+    owner = message.sender;
   }
 
   modifier restricted() {
